@@ -15,6 +15,7 @@ int from_flash;
 const int addr_step = sizeof(int);
 const int max_addrs_amount = 10;
 
+hello)))
 
 void setup() {
   Serial.begin(9600);
