@@ -11,4 +11,4 @@
 *3. Очистка памяти после десятого записанного значения*
 ![](images/flash_clearing.JPG "EVERYTHING WORKING FINE")
 
-Код в [[ADCCount.ino]]
+[Код программы](ADCCount.ino)
