@@ -12,7 +12,8 @@ int main()
     FILE *even_rand_file;
 
     int nums_count = 0;
-
+    char buf[255];
+    
     srand(time(NULL));
 
     long int start_period = time(NULL);
@@ -24,7 +25,6 @@ int main()
             rand_file = fopen(rand_in_sec, "a");
             start_period = cur_period;
             int rand_num = rand();
-            char buf[255];
             sprintf(buf, "%d\n", rand_num);
             fprintf(rand_file, buf);
             fclose(rand_file);

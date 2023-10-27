@@ -27,3 +27,5 @@
 ![](images/tenth_replace.png "Макс 10 чисел")
 
 [Код задания 2](Second%20task/task.c)
+
+[Код задания 2 (для мк)](Second%20task/SDWrite.ino)
