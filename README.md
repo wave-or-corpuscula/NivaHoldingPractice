@@ -18,7 +18,7 @@
 
 ### *Скрин-отчет*
 1. Так выглядела бы схема, если бы вышло сделать ее в proteus
-![](images/flash_clearing.JPG "EVERYTHING WORKING FINE")
+![](images/setup_2.JPG "Setup #2")
 
 2. Запсь случайных чисел в файлы 
 ![](images/rand_in_files.png "Запись в два файла")
