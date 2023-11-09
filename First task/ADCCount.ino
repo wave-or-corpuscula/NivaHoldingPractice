@@ -29,12 +29,13 @@ void loop()
     previous_millis = current_millis;
     
     // ADC calculation
+    int mean = 0
     for (int i = 0; i < 1024; i++) 
     {
-      int val = analogRead(adc_pin);
+      mean += analogRead(adc_pin);
     }
-    unsigned long time_end = millis();
-    int adc_val = time_end - current_millis;
+    // unsigned long time_end = millis();
+    int adc_val = mean / 1024;
 
     Serial.print("ADC = ");
     Serial.println(adc_val);
